@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 100%;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+figure{
+	margin: 0;
+}
+
+.navbar{
+	background-color: red;
+	height: 4rem;
+}
+
+.brand{
+	background-image: url("../stuff.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.navbar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.navbar ul li{
+	display: inline-block;
+	/* This is gonna line up the buttons next to each other and not stacked*/
+}
+
+.navbar ul li a{
+	color: #fff;
+	display: inline-block;
+	padding: 8px;
+	text-transform: uppercase;
+}
+
+.navbar ul li a.hover{
+color: red;
+}
+
+
+#introduction {
+	background: url("../images/hero.jpg") no-repeat;
+	background-size: cover;
+	height: 100 vh;
+	width: 100 vw;
+}
+
+.statement{
+	background-color: white
+	font-size: 5rem
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 4px 4px 8px black;
+	padding: 5rem 0;
+}
+
+.featured-project{
+	background-color: black;
+}
+
+.featured-project img{
+  max-width: 100%;
+}
+
+.featured-project:hover img{
+opacity: 0.6;
+}
+
+.featured-project figcaption{
+	color: white;
+	font-size: 3rem
+	padding-left: 3rem
+	opacity:0;
+}
+
+.featured-project 
+

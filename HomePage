@@ -1,0 +1,14 @@
+
+<header>
+	<h4>Menu</h4>
+		<ul>
+			<li><a href = "/HomePage.html">Home</li>
+			<li><a href = "/About.html">About</li>
+			<li><a href = "/Blog.html">Blog</li>
+			<li><a href = "/Works.html">My Work</li>
+			<li><a href = "/TalkingWalt.html">Talking Walt</li>
+			<li><a href = "/FunStuff.html">Fun Stuff</li>
+		</ul>
+	</header>
+
+<h1>Hi, I'm Hannah. Welcome to my Mystic World.</h1>
