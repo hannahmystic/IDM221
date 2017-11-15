@@ -1,6 +1,9 @@
-*{ background-color: #ff769d; }
+*{ box-sizing: border-box; }
 
-h1, h4{ color: 3d28b5; }
+
+h1{ font-family: 'Paytone One', sans-serif; }
+
+h1, h4{ color: #3d28b5; }
 
 p{ color: #23170c; }
 
@@ -46,18 +49,26 @@ h3.Tagline{text-align: center;}
 /* STYLE FOR MAJORITY OF HOMEPAGE */
 sections{
 width: auto;
-position: relative;
+min-width: 18rem;
+min-height: 45rem;
+position: absolute;
+/*position: relative;*/
 }
 
 .left, .right {
-width: 455px; 
-float: left;
+width: 32vw;
+height: 100vh;
+background-color: #ff769d;
 }
 
 .center {
-float: left;
-min-width: 456px; 
-width: auto;
-position: relative;
+width: 32vw;
+height: 100vh;
+/*position: relative;*/
+background-color: #f0ffae;
+margin: 0 auto;
 }
+
+.left{ float: left; }
+.right{ float: right; }
 
