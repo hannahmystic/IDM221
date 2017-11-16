@@ -72,3 +72,26 @@ margin: 0 auto;
 .left{ float: left; }
 .right{ float: right; }
 
+
+
+
+
+
+
+/* STYLES FOR INDIVIDUAL PAGES*/
+.TW{
+    background-color: #ff8dad;
+}
+
+.talkingwalt{
+    margin: 0 auto;
+}
+
+.talkingwaltdescription{
+    padding: 4.5 rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+image{ margin: 0 auto; }
+
+
