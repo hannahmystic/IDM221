@@ -16,6 +16,9 @@ html
     padding-top: 7rem;
 }
 
+.allbuttons{
+    margin: 0 auto;
+}
 
 .button{
     background-color: #cfa9c3;
@@ -37,11 +40,13 @@ html
 }
 
 .musicbutton{
+    margin: 0 auto;
     padding-top: 3rem;
     padding-left: 5vw;
 }
 
 .projectsbutton{
+    margin: 0 auto;
     padding-top: 3rem;
     padding-left: 5vw;
 }
