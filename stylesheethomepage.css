@@ -1,0 +1,59 @@
+*{ box-sizing: border-box; }
+
+
+/* I learned how to make the buttons from https://www.w3schools.com/howto/howto_css_round_buttons.asp */
+
+html
+{
+    background-color: #231942;
+}
+
+.logo{
+    width: 350px;
+    max-width: 50vh;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+
+.button{
+    background-color: #cfa9c3;
+    border: none;
+    color: #231942;
+    padding: 3rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 2.5rem 1rem;
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
+    float: left;
+}
+
+.aboutbutton{
+    padding-left: 10vw;
+}
+
+.musicbutton{
+    padding-top: 3rem;
+    padding-left: 5vw;
+}
+
+.projectsbutton{
+    padding-top: 3rem;
+    padding-left: 5vw;
+}
+
+.twbutton{
+    padding-right: 10vw;
+    padding-left: 5vw;
+}
+
+
+
+
+
+
+

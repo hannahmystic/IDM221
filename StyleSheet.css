@@ -1,57 +1,123 @@
 *{ box-sizing: border-box; }
 
 
-h1{ font-family: 'Paytone One', sans-serif; }
+
+h1, h3{
+    font-family: 'Paytone One', sans-serif;
+    padding: 0;
+    margin: 0;
+    }
 
 h1, h4{ color: #3d28b5; }
 
-p{ color: #23170c; }
+h1{ font-size: 3rem; }
+
+h3{ font-size: 1.3rem; }
+
+p{ color: #19294d; }
 
 li:link{color: blue;}
 li:visited{color: purple;}
+
+/* html{ background-color: #ff769d; } */
+body{ background-color: #ff769d; }
 
 /*HERE I'M TRYING TO STYLE THE NAVIGATION BAR ON THE TOP
 	I FOUND THIS ONLINE
 	I ADDED .TOPBAR SO IT WOULDN'T APPLY TO ALL LINKS.
 	IS THIS RIGHT?*/
 
+header{
+    display: block;
+    background-color: #f0ffae;
+    padding: 1.2rem;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    min-width: 788px
+}
+
+img{ max-width: 100%; }
+
+/*
 ul.topBar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     overflow: hidden;
     background-color: #333;
 }
 
-li.topBar {
-    float: left;
+/*li.topBar {
+    text-align: center;
+    margin: 5rem;
+    font-family: 'Roboto', sans-serif;
 }
+*/
 
+.topBar a{
+    display: inline-block;
+    margin: 0 2rem;
+
+    /*min-width: 788px;*/
+}
+/*
 li.topBar a.topBar {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 3rem;
 }
 
 /* Change the link color to #111 (black) on hover */
+/*
 li.topBar a.topBar:hover {
-    background-color: #111;
+    background-color: pink;
+}
+*/
+/*
+head{
+    background-color: ##ff769d;
+    padding: 0rem;
 }
 
-/* TITLE PROPERTIES */
-title{text-align: center;}
+*/
+.intro{
+    background-color: #ff769d;
+    height: 8rem
 
-h3.Tagline{text-align: center;}
+    }
+
+/* TITLE PROPERTIES */
+.Hannah{
+    text-align: center;
+    padding: 0;
+    }
+.Hannah h1{
+    padding: 0;
+    margin: 0;
+}
+
+.Tagline{
+    text-align: center;
+    padding: 0rem;
+    }
+
+.Tagline h3{
+    padding: 0;
+    margin: 0.6rem;
+}
 
 
 /* STYLE FOR MAJORITY OF HOMEPAGE */
-sections{
+.sections{
 width: auto;
 min-width: 18rem;
 min-height: 45rem;
 position: absolute;
+float: left;
 /*position: relative;*/
 }
 
@@ -67,14 +133,36 @@ height: 100vh;
 /*position: relative;*/
 background-color: #f0ffae;
 margin: 0 auto;
+float: left;
 }
 
-.left{ float: left; }
-.right{ float: right; }
+.left{ 
+    float: left;
+}
+.right{
+    float: left;
+}
 
+img.sections{
+    padding: 4rem;
+    margin: 0 auto;
+}
 
-
-
+.photo-left{ 
+    margin: auto;
+    width: 100%;
+    max-width: 288px;
+}
+.photo-center{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 360px;
+}
+.photo-right{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 432px;
+}
 
 
 
@@ -84,14 +172,181 @@ margin: 0 auto;
 }
 
 .talkingwalt{
-    margin: 0 auto;
+    display: block;
+    margin: auto;
+    width: 522px;
+    height: 140px;
+    padding: 1.2rem;
 }
+
 
 .talkingwaltdescription{
-    padding: 4.5 rem;
+    padding: 2 rem;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
+
 image{ margin: 0 auto; }
+
+.episodes{
+    text-align: center;
+    height: 3rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.videos{
+    display: block;
+    margin: 2rem auto;
+    width: 560px;
+}
+
+
+
+/* ______________________
+   |                    |
+   |        MUSIC       |
+   |____________________|
+*/
+
+.music h1{
+    text-align: center;
+}
+
+/* ______________________
+   |                    |
+   |        ABOUT       |
+   |____________________|
+*/
+
+.abouttitle{
+    text-align: center;
+    padding: 0;
+    margin-top:1rem;
+}
+
+.about h4{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.about p, li{
+    font-size: 1rem;
+    max-width: 885px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* ______________________
+   |                    |
+   |      PROJECTS      |
+   |____________________|
+*/
+
+.projects{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.projects a{
+    text-decoration: none;
+}
+
+.intro{
+    font-size: 1rem;
+    max-width: 885px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.artrow{
+    height: 500px;
+}
+
+.art{
+    float: left;
+    padding: 2rem;
+}
+
+
+
+/* ______________________
+   |                    |
+   |    NEW HOME PAGE   |
+   |____________________|
+*/
+
+/* I learned how to make the buttons from https://www.w3schools.com/howto/howto_css_round_buttons.asp */
+
+.homeagain
+{
+    background-color: #231942;
+    height: 100vh;
+    width: 100vh;
+}
+
+.logo{
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+.logo{
+    width: 350px;
+    height: auto;
+}
+
+.button{
+    background-color: #cfa9c3;
+    border: none;
+    color: #231942;
+    padding: 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 2.5rem 1rem;
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
+    float: left;
+}
+
+.aboutbutton{
+    padding-left: 10vw;
+}
+
+.musicbutton{
+    padding-top: 3rem;
+    padding-left: 5vw;
+    padding-right: ;
+}
+
+.projectsbutton{
+    padding-top: 3rem;
+    padding-left: 5vw;
+}
+
+.twbutton{
+    padding-right: 10vw;
+    padding-left: 5vw;
+}
+
+
+
+
+
 
 
