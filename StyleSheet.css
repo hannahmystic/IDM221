@@ -16,20 +16,21 @@ h3{ font-size: 1.3rem; }
 
 p{ color: #19294d; }
 
-li:link{color: blue;}
-li:visited{color: purple;}
+li:link{color: #231942;}
+li:visited{color: #231942;}
 
 /* html{ background-color: #ff769d; } */
-body{ background-color: #ff769d; }
+html{ background-color: #cfa9c3; }
 
-/*HERE I'M TRYING TO STYLE THE NAVIGATION BAR ON THE TOP
-	I FOUND THIS ONLINE
-	I ADDED .TOPBAR SO IT WOULDN'T APPLY TO ALL LINKS.
-	IS THIS RIGHT?*/
+/* ______________________
+   |                    |
+   |   NAVIGATION BAR   |
+   |____________________|
+*/
 
 header{
     display: block;
-    background-color: #f0ffae;
+    background-color: #9f86c0;
     padding: 1.2rem;
     height: 3.5rem;
     font-family: 'Lato', sans-serif;
@@ -40,21 +41,7 @@ header{
 
 img{ max-width: 100%; }
 
-/*
-ul.topBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 1rem;
-    overflow: hidden;
-    background-color: #333;
-}
 
-/*li.topBar {
-    text-align: center;
-    margin: 5rem;
-    font-family: 'Roboto', sans-serif;
-}
-*/
 
 .topBar a{
     display: inline-block;
@@ -62,30 +49,9 @@ ul.topBar {
 
     /*min-width: 788px;*/
 }
-/*
-li.topBar a.topBar {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin: 3rem;
-}
 
-/* Change the link color to #111 (black) on hover */
-/*
-li.topBar a.topBar:hover {
-    background-color: pink;
-}
-*/
-/*
-head{
-    background-color: ##ff769d;
-    padding: 0rem;
-}
 
-*/
 .intro{
-    background-color: #ff769d;
     height: 8rem
 
     }
@@ -167,9 +133,16 @@ img.sections{
 
 
 /* STYLES FOR INDIVIDUAL PAGES*/
-.TW{
+/* .TW{
     background-color: #ff8dad;
 }
+*/
+
+/* ______________________
+   |                    |
+   |    TALKING WALT    |
+   |____________________|
+*/
 
 .talkingwalt{
     display: block;
@@ -181,7 +154,7 @@ img.sections{
 
 
 .talkingwaltdescription{
-    padding: 2 rem;
+    padding: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     text-align: center;
@@ -214,6 +187,15 @@ image{ margin: 0 auto; }
 .music h1{
     text-align: center;
 }
+
+p, h3, h4, .song{
+    font-size: 1rem;
+    max-width: 885px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{ font-family: 'Lato', sans-serif; }
 
 /* ______________________
    |                    |

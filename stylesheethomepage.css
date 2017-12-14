@@ -16,13 +16,10 @@ html
     padding-top: 7rem;
 }
 
-.allbuttons{
-    margin: 0 auto;
-}
+
 
 .button{
     background-color: #cfa9c3;
-    border: none;
     color: #231942;
     padding: 3rem;
     text-align: center;
@@ -32,28 +29,29 @@ html
     border-radius: 100%;
     width: 7rem;
     height: 7rem;
-    float: left;
 }
 
 .aboutbutton{
-    padding-left: 10vw;
-}
-
-.musicbutton{
-    margin: 0 auto;
-    padding-top: 3rem;
-    padding-left: 5vw;
+    padding-left: 15vw;
+    float: left;
 }
 
 .projectsbutton{
-    margin: 0 auto;
-    padding-top: 3rem;
-    padding-left: 5vw;
+    padding-top: 9rem;
+    padding-left: 25vw;
+    float: left;
 }
 
+.musicbutton{
+    padding-top: 9rem;
+    padding-right: 25vw;
+    float: right;
+}
+
+
 .twbutton{
-    padding-right: 10vw;
-    padding-left: 5vw;
+    padding-right: 15vw;
+    float: right;
 }
 
 
